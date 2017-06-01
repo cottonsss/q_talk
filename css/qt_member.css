@@ -3,7 +3,7 @@
 body{background-color:#f7f3f1;}
 
 /*----------------------------------- 회원가입 -----------------------------------*/
-.jn_logo{position:relative; width:100%; height:180px; background:url("../img/jn_logo.png") center 60% no-repeat; background-size:215px 92px;}
+.jn_logo{position:relative; width:100%; height:180px; background:url("http://image.club5678.com/imgs/quick_talk/img01/jn_logo.png") center 60% no-repeat; background-size:215px 92px;}
 
 .jn_contents{position:relative; width:100%; height:auto; padding:0 8%; box-sizing:border-box;}
 .jn_contents .content_lst{position:relative; height:auto; margin-bottom:8px; overflow:auto;}
@@ -13,15 +13,15 @@ body{background-color:#f7f3f1;}
 .jn_contents .fl_right{float:right;}
 .jn_contents .jn_form_style{height:auto; padding:0 12px; line-height:38px; background:#fff; border:1px solid #e0d0ca; box-sizing:border-box; font-size:14px; color:#535359; appearance:none; -webkit-appearance:none; -o-appearance:none; -ms-appearance:none;}
 .jn_contents input[type=text]{display:block; width:100%; height:auto; line-height:38px; border:none; background:none; box-sizing:border-box;}
-.jn_contents select{display:block; width:100%; height:auto; line-height:38px; border:none; box-sizing:border-box; background:url("../img/btn_jn_slct.png") right center no-repeat; background-size:8px 5px; color:#535359;}
+.jn_contents select{display:block; width:100%; height:auto; line-height:38px; border:none; box-sizing:border-box; background:url("http://image.club5678.com/imgs/quick_talk/img01/btn_jn_slct.png") right center no-repeat; background-size:8px 5px; color:#535359;}
 .jn_contents .slct_sex{position:relative; width:50%; height:40px;}
 .jn_contents .slct_sex a{display:block; width:100%; height:100%; background:#fff; border:1px solid #e0d0ca; box-sizing:border-box;}
 .jn_contents .sex_m{float:left; padding-right:5px; box-sizing:border-box;}
-.jn_contents .sex_m a{background:#fff url("../img/btn_slct_m_off.png") center bottom no-repeat; background-size:51px 31px;}
-.jn_contents .sex_m a.selected{border:2px solid #4dbde7; background:#f8fdff url("../img/btn_slct_m_on.png") center 6px no-repeat; background-size:51px 31px;}
+.jn_contents .sex_m a{background:#fff url("http://image.club5678.com/imgs/quick_talk/img01/btn_slct_m_off.png") center bottom no-repeat; background-size:51px 31px;}
+.jn_contents .sex_m a.selected{border:2px solid #4dbde7; background:#f8fdff url("http://image.club5678.com/imgs/quick_talk/img01/btn_slct_m_on.png") center 6px no-repeat; background-size:51px 31px;}
 .jn_contents .sex_fm{float:left; padding-left:5px; box-sizing:border-box;}
-.jn_contents .sex_fm a{background:#fff url("../img/btn_slct_fm_off.png") center bottom no-repeat; background-size:51px 31px;}
-.jn_contents .sex_fm a.selected{border:2px solid #f06ba0; background:#fff7fa url("../img/btn_slct_fm_on.png") center 6px no-repeat; background-size:51px 31px;}
+.jn_contents .sex_fm a{background:#fff url("http://image.club5678.com/imgs/quick_talk/img01/btn_slct_fm_off.png") center bottom no-repeat; background-size:51px 31px;}
+.jn_contents .sex_fm a.selected{border:2px solid #f06ba0; background:#fff7fa url("http://image.club5678.com/imgs/quick_talk/img01/btn_slct_fm_on.png") center 6px no-repeat; background-size:51px 31px;}
 
 .jn_contents .btn_join{position:relative; width:100%; height:auto; padding:5px 0;}
 .jn_contents .btn_join a{display:block; width:100%; height:100%; line-height:40px; background:#ff5548; font-size:16px; font-weight:bold; color:#fff; text-align:center;}
@@ -47,7 +47,7 @@ input:-moz-placeholder {color:#676767;}
 
 /*-------------------------------- 비밀번호초기설정창 ------------------------------*/
 
-.locker_img{position:relative; width:100%; height:146px; background:url("../img/img_locker.png") center 70% no-repeat; background-size:79px 96px;}
+.locker_img{position:relative; width:100%; height:146px; background:url("http://image.club5678.com/imgs/quick_talk/img01/img_locker.png") center 70% no-repeat; background-size:79px 96px;}
 p.lock_pw_info{position:relative; width:100%; height:auto; font-size:15px; font-weight:bold; color:#646464; text-align:center;}
 .lock_pw{position:relative; width:100%; height:auto; text-align:center;}
 .lock_pw p{position:relative; width:100%; height:auto; font-size:15px; font-weight:bold; color:#4a4a4a;}
@@ -56,10 +56,13 @@ p.lock_pw_info{position:relative; width:100%; height:auto; font-size:15px; font-
 .lock_pw .pw_box:nth-of-type(4){margin:0;}
 .lock_pw .pw_box input{display:block; width:100%; height:100%; border:none; background:none; font-size:30px; font-weight:bold; color:#4a4a4a; line-height:40px; text-align:center;}
 
-.btn_setting{position:relative; width:100%; height:auto; padding:0 10%; padding-top:36px; overflow:auto; box-sizing:border-box;}
-.btn_delay{float:left; width:46%; height:auto; border-radius:5px;}
+.btn_setting{position:relative; width:260px; height:auto; margin:0 auto; padding-top:36px; overflow:auto; box-sizing:border-box;}
+.btn_delay{float:left; width:46%; height:auto; border-radius:3px;}
 .btn_delay a{display:block; width:100%; height:auto; line-height:40px; font-size:16px; font-weight:bold; color:#fff; text-align:center;}
-.btn_save{float:right; width:46%; height:auto; border-radius:5px;}
+.btn_save{float:right; width:46%; height:auto; border-radius:3px;}
 .btn_save a{display:block; width:100%; height:auto; line-height:40px; font-size:16px; font-weight:bold; color:#fff; text-align:center;}
 
+@media(min-width:360px){
+    .btn_setting{width:280px;}
+}
 /*-------------------------------------------------------------------------------*/

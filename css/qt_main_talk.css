@@ -2,9 +2,7 @@
 body{background-color:#e7e7e7}
 #container{margin-top:97px;}
 
-/*
- ** 토크룸 리스트 css **
-          */
+/******************** 토크룸 리스트 css ********************/
 .talk_u{position:relative; width:100%; height:auto; padding:5px; box-sizing:border-box;}
 .talk_u li{position:relative; width:100%; margin-top:4px;}
 .talk_u li:first-of-type{margin-top:0px;}
@@ -53,39 +51,3 @@ body{background-color:#e7e7e7}
 
 /* 배너 */
 .talk_u .list_banner{height:60px; background-color:#ffc868;}
-
-/*
- ** 플로팅 버튼 **
-          */
-.float_wrap{position:fixed; right:10px; bottom:50px; z-index:300; width:50px; height:auto;}
-.float_bg_modal{display:none; position:fixed; top:0; right:0; bottom:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.7);}
-.float_btn {position:relative; width:50px; height:50px; border-radius:100%; background:#ff5548 url("http://image.club5678.com/imgs/quick_talk/img01/ico_floating.png") no-repeat center center; background-size:20px 20px; box-shadow:1px 2px 6px rgba(0,0,0,0.3); transition:0.2s transform ease-in-out; cursor:pointer;}
-.float_write{position:absolute; top:-25px; right:0px; width:400%; height:50px; line-height:50px; transform:scale(0); transform-origin:87.5% center; opacity:0;}
-.float_write a{display:block; width:25%; height:100%; border-radius:100%;  background:#fff; box-shadow:1px 2px 6px rgba(0,0,0,0.3); float:left;}
-.float_write a:active{background:#efefef;}
-.float_txt{width:75%; height:100%; padding-right:12px; box-sizing:border-box; font-size:15px; color:#fff; font-weight:bold; text-align:right; float:left;}
-
-@keyframes up01 {
-0% {top:-25px; transform:scale(0); opacity:0;}
-100% {top:-70px; transform:scale(1); opacity:1;}
-}
-@-webkit-keyframes up01 {
-0% {top:-25px; transform:scale(0); opacity:0;}
-100% {top:-70px; transform:scale(1); opacity:1;}
-}
-@-ms-keyframes up01 {
-0% {top:-25px; transform:scale(0); opacity:0;}
-100% {top:-70px; transform:scale(1); opacity:1;}
-}
-@-moz-keyframes up01 {
-0% {top:-25px; transform:scale(0); opacity:0;}
-100% {top:-70px; transform:scale(1); opacity:1;}
-}
-@-o-keyframes up01 {
-0% {top:-25px; transform:scale(0); opacity:0;}
-100% {top:-70px; transform:scale(1); opacity:1;}
-}
-
-.float_on .float_bg_modal{display:block;}
-.float_on .float_btn{transform:rotate(-135deg); -webkit-transform:rotate(-135deg); -o-transform:rotate(-135deg); -moz-transform:rotate(-135deg); -ms-transform:rotate(-135deg);}
-.float_on .float_write{top:-70px; transform:scale(1); opacity:1; animation:up01 0.2s ease-in-out 1;-webkit-animation:up01 0.2s ease-in-out 1; -o-animation:up01 0.2s ease-in-out 1; -moz-animation:up01 0.2s ease-in-out 1; -ms-animation:up01 0.2s ease-in-out 1;}

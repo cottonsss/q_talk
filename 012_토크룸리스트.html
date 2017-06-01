@@ -39,7 +39,7 @@
     	<!-- 상단 필터 -->
     	<div class="filter_wrap">
         	<div class="align_filter">
-                <select>
+                <select class="bg_white_btn">
                     <option>최근작성순</option>
                     <option>나와 가까운순</option>
                     <option>서울지역</option>
@@ -56,7 +56,7 @@
                 </select>
             </div>
             <div class="gender_filter">
-            	<select>
+            	<select class="bg_white_btn">
                 	<option>전체</option>
                     <option>남성</option>
                     <option>여성</option>
@@ -310,12 +310,12 @@
         </ul>
         <!-- // 토크룸 리스트 -->
     </div>
-    <div class="float_wrap">
+    <div class="float_wrap float_on"><!-- 클릭하면 클래스 .float_on 추가) -->
     	<div class="float_bg_modal"></div>
         <div class="float_btn"><span class="blind">플로팅버튼</span></div>
         <div class="float_write">
-            <div class="float_txt">글등록/위로 올리기</div>
-            <a href="javascript:void(0);" onclick="javascript:document.getElementById('btn_main_write').click();"></a>
+            <div class="float_txt">글쓰기/위로 올리기</div>
+            <a href="#"><span class="blind">글쓰기/위로올리기</span></a>
         </div>
     </div>
 </div>

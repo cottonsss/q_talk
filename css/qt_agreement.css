@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+body{background-color:#f7f3f1;}
+
+/*-------------------------------- 고객센터 ------------------------------*/
+.cc_logo{position:relative; width:100%; height:170px; background:url("http://image.club5678.com/imgs/quick_talk/img01/jn_logo.png") center center no-repeat; background-size:215px 92px;}
+.cc_contents{position:relative; width:100%; height:auto; padding:0 6%; box-sizing:border-box;}
+.cc_contents .cc_box_ment{position:relative; width:100%; height:auto; padding:68px 10px 14px 10px; box-sizing:border-box; border:1px solid #e0d0ca; border-radius:3px; background:#fff url(../img/ico_exclam1.png) center 14px no-repeat; background-size:38px 38px; font-size:12px; line-height:18px; font-weight:bold; color:#6b6b6b; text-align:center;}
+.cc_contents .btn_send_mail{position:relative; width:100%; height:44px; margin:10px 0 6px 0; line-height:44px; border-radius:3px;}
+.cc_contents .btn_send_mail a{display:block; width:100%; height:100%; border-radius:3px; font-size:14px; font-weight:bold; color:#fff; text-align:center;}
+.cc_contents .btn_send_mail a:active{background-color:#5c609a;}
+.cc_contents .btn_view_terms{position:relative; width:100%; height:44px; line-height:44px; border-radius:3px;}
+.cc_contents .btn_view_terms a{display:block; width:100%; height:100%; border-radius:3px; font-size:14px; font-weight:bold; color:#fff; text-align:center;}
+.cc_contents .btn_view_terms a:active{background-color:#464646;}
+
+@media(min-width:360px){
+    .cc_contents .cc_box_ment{font-size:13px; line-height:20px;}
+}
+/*-----------------------------------------------------------------------*/
+
+/*-------------------------------- 정지/경고페이지 ------------------------------*/
+.warn_logo{position:relative; width:100%; height:200px; background:url("http://image.club5678.com/imgs/quick_talk/img01/jn_logo.png") center center no-repeat; background-size:215px 92px;}
+.warn_contents{position:relative; width:100%; height:auto; padding:0 6%; box-sizing:border-box;}
+.warn_contents h2{font-size:22px; font-weight:bold; color:#616060; text-align:center;}
+.warn_contents .warn_ment{position:relative; width:100%; height:auto; padding:10px 0; padding-left:50px; box-sizing:border-box; background:url("http://image.club5678.com/imgs/quick_talk/img01/ico_exclam2.png") 10px center no-repeat; background-size:33px 33px; font-size:14px; font-weight:bold; line-height:22px; color:#4a4a4a; text-align:left;}
+.warn_contents .warn_ment span{color:#7c86e9;}
+.warn_contents .warn_box_ment{position:relative; width:100%; height:auto; padding:10px 26px; box-sizing:border-box; border:1px solid #e0d0ca; border-radius:3px; background:#fff; font-size:15px; line-height:32px; color:#4a4a4a; text-align:left;}
+.warn_contents .warn_box_ment span{padding-right:5px; font-weight:bold;}
+.warn_contents .warn_box_ment span.ft_s{font-weight:normal; font-size:12px;}
+.warn_contents .btn_warn{position:relative; width:100%; height:44px; margin-top:14px; line-height:44px; border-radius:3px;}
+.warn_contents .btn_warn a{display:block; width:100%; height:100%; border-radius:3px; font-size:14px; font-weight:bold; color:#fff; text-align:center;}
+.warn_contents .btn_warn a:active{background-color:#464646;}
+
+@media(min-width:360px){
+    .cc_contents .cc_box_ment{font-size:13px; line-height:20px;}
+
+    .warn_contents{width:314px; padding:0; margin:0 auto;}
+    .warn_contents h2{font-size:24px;}
+    .warn_contents .warn_ment{padding-left:60px; background:url("http://image.club5678.com/imgs/quick_talk/img01/ico_exclam2.png") 14px center no-repeat; background-size:33px 33px; font-size:15px;}
+}
+/*-----------------------------------------------------------------------------*/
+
+/*-------------------------------- 이용약관 ------------------------------*/
+.nav {position:relative; width:100%; height:35px; background:#fff; box-sizing:border-box; box-shadow:1px 1px 7px rgba(0,0,0,0.2); -webkit-box-shadow:1px 1px 7px rgba(0,0,0,0.2); -moz-box-shadow:1px 1px 7px rgba(0,0,0,0.2);}
+.nav .nav_u {float:left; width:100%; height:35px; padding:0 15px 0 0; white-space:nowrap;}
+.nav .nav_u .nav_l {float:left; width:33%; height:35px; text-align:center; white-space:nowrap; box-sizing:border-box;}
+.nav .nav_u .nav_l:nth-of-type(2){margin:0 0.5%;}
+.nav .nav_u {display:inline-block; width:100%; height:33px; color:#4a4a4a; font-size:13px; font-weight:bold; line-height:35px; text-align:center;}
+.nav .nav_u .nav_l a{display:block; width:100%; height:100%;}
+.nav .nav_u .nav_l a:active {background:rgba(0,0,0,.03); border-bottom:2px solid #ff5548; box-sizing:border-box;}
+.tab_on1 {border-bottom:2px solid #ff5548; color:#ff5548;}
+/*-----------------------------------------------------------------------*/
+
+
+

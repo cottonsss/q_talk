@@ -34,27 +34,27 @@
         <!-- // 네비 -->
     </div>
     <!-- // 헤더 -->
-    <!-- 영상룸 상단 -->
-    <div class="video_header">
-        <div class="my_jewel">
-            <span class="ico_jewel">보석</span>
-            <span class="color_jewel">10000개</span>
-            <div class="btn_white"><a href="#">내역</a></div>
-            <div class="btn_white"><a href="#">구매</a></div>
-        </div>
-        <div class="my_point">
-            <span>포인트</span>
-            <span class="color_point">10000점</span>
-            <div class="btn_white fl_r"><a href="#">교환</a></div>
-        </div>
-    </div>
-    <!-- 영상룸 상단 //-->
     <!-- 상단 영역 -->
     <div class="top_section">
+        <!-- 영상룸 상단 -->
+        <div class="video_header">
+            <div class="my_jewel">
+                <span class="ico_jewel">보석</span>
+                <span class="color_jewel">10000개</span>
+                <div class="btn_white bg_white_btn"><a href="#">내역</a></div>
+                <div class="btn_white bg_white_btn"><a href="#">구매</a></div>
+            </div>
+            <div class="my_point">
+                <span>포인트</span>
+                <span class="color_point">10000점</span>
+                <div class="btn_white fl_r bg_white_btn"><a href="#">교환</a></div>
+            </div>
+        </div>
+        <!-- 영상룸 상단 //-->
     	<!-- 상단 필터 -->
     	<div class="filter_wrap">
         	<div class="align_filter">
-                <select>
+                <select class="bg_white_btn">
                     <option>최근작성순</option>
                     <option>나와 가까운순</option>
                     <option>서울지역</option>
@@ -71,7 +71,7 @@
                 </select>
             </div>
             <div class="gender_filter">
-            	<select>
+            	<select class="bg_white_btn">
                 	<option>전체</option>
                     <option>남성</option>
                     <option>여성</option>
@@ -262,12 +262,16 @@
         </ul>
         <!-- // 토크룸 리스트 -->
     </div>
-    <div class="float_wrap" style="display:none;">
+    <div class="float_wrap float_on"><!-- 클릭하면 클래스 .float_on 추가) -->
     	<div class="float_bg_modal"></div>
         <div class="float_btn"><span class="blind">플로팅버튼</span></div>
         <div class="float_write">
-            <div class="float_txt">글등록/위로 올리기</div>
-            <a href="javascript:void(0);" onclick="javascript:document.getElementById('btn_main_write').click();"></a>
+            <div class="float_txt">글쓰기/위로 올리기</div>
+            <a href="#"><span class="blind">글쓰기/위로 올리기</span></a>
+        </div>
+        <div class="float_set">
+            <div class="float_txt">영상채팅 수신설정</div>
+            <a href="#"><span class="blind">영상채팅 수신설정</span></a>
         </div>
     </div>
 </div>
