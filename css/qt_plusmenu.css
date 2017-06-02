@@ -50,7 +50,7 @@ ul.sett_ul li{position:relative; width:100%; height:auto; padding-left:20px; box
 p.set_info_txt{position:relative; width:100%; height:auto; padding:10px 22px; box-sizing:border-box; font-size:13px; line-height:20px; color:#757575;}
 
 ul.sett_ul li.set_arrow{padding:0 20px; box-sizing:border-box;}
-ul.sett_ul li.set_arrow a{display:block; width:100%; height:50px; background:url("http://image.club5678.com/imgs/quick_talk/img01/btn_set_arrow.png") right center no-repeat; background-size:10px 14px;}
+ul.sett_ul li.set_arrow a{display:block; width:100%; height:56px; background:url("http://image.club5678.com/imgs/quick_talk/img01/btn_set_arrow.png") right center no-repeat; background-size:10px 14px;}
 
 /* 체크박스 스위치 */
 .btn_set_onoff{position:absolute; width:auto; height:auto; top:0; right:0; padding:16px 20px 16px 0;}
