@@ -21,10 +21,10 @@ ul.plusmenu_ul li:nth-of-type(7){background:url("http://image.club5678.com/imgs/
 
 
 /*-------------------------------- 아이템관리 ------------------------------*/
-.jw_mine{position:relative; width:96%; height:45px; line-height:45px; margin:0 auto; margin-top:2%; padding-left:34px; box-sizing:border-box; border-radius:3px; font-size:14px; font-weight:bold; color:#fff; background:#4a4a4a url(http://image.club5678.com/imgs/quick_talk/img01/ico_jewel.png) 14px center no-repeat; background-size:15px 13px;}
+.jw_mine{position:relative; width:96%; height:45px; line-height:45px; margin:0 auto; margin-top:2%; padding-left:34px; box-sizing:border-box; border-radius:3px; font-size:15px; font-weight:bold; color:#fff; background:#4a4a4a url(http://image.club5678.com/imgs/quick_talk/img01/ico_jewel.png) 14px center no-repeat; background-size:15px 13px;}
 .jw_mine span{padding-left:5px; color:#f5ff52;}
 .jw_mine .btn_buy_jw{position:absolute; width:74px; height:auto; top:8px; right:6px;}
-.jw_mine .btn_buy_jw a{display:block; width:100%; height:100%;line-height:30px; border-radius:3px; background:#ff5548; text-align:center;}
+.jw_mine .btn_buy_jw a{display:block; width:100%; height:100%;line-height:30px; border-radius:3px; background:#ff5548; font-size:14px; text-align:center;}
 .jw_mine .btn_buy_jw a:active{background:#f74e41;}
 .jw_lst_info{position:relative; padding:5px 4%; box-sizing:border-box; font-size:13px; color:#757575;}
 
