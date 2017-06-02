@@ -12,7 +12,7 @@ body{background-color:#f7f3f1;}
 .jn_contents .fl_left{float:left;}
 .jn_contents .fl_right{float:right;}
 .jn_contents .jn_form_style{height:auto; padding:0 12px; line-height:38px; background:#fff; border:1px solid #e0d0ca; box-sizing:border-box; font-size:14px; color:#535359; appearance:none; -webkit-appearance:none; -o-appearance:none; -ms-appearance:none;}
-.jn_contents input[type=text]{display:block; width:100%; height:auto; line-height:38px; border:none; background:none; box-sizing:border-box;}
+.jn_contents input[type=text]{display:block; width:100%; height:auto; line-height:38px; border:none; background:none; box-sizing:border-box; color:#535359;}
 .jn_contents select{display:block; width:100%; height:auto; line-height:38px; border:none; box-sizing:border-box; background:url("http://image.club5678.com/imgs/quick_talk/img01/btn_jn_slct.png") right center no-repeat; background-size:8px 5px; color:#535359;}
 .jn_contents .slct_sex{position:relative; width:50%; height:40px;}
 .jn_contents .slct_sex a{display:block; width:100%; height:100%; background:#fff; border:1px solid #e0d0ca; box-sizing:border-box;}
@@ -41,6 +41,9 @@ input:-moz-placeholder {color:#676767;}
     .chk_lst .box_agree{position:relative; width:100%; height:34px;}
     .chk_lst .box_agree label{line-height:34px; font-size:14px;}
     .chk_lst .box_agree span.btn_terms{line-height:34px; font-size:14px;}
+
+    .chk_lst01 label{padding-left:26px; font-size:14px;}
+    .chk_lst01 span.btn_terms{font-size:14px;}
 }
 /*-------------------------------------------------------------------------------*/
 
@@ -48,10 +51,10 @@ input:-moz-placeholder {color:#676767;}
 /*-------------------------------- 비밀번호초기설정창 ------------------------------*/
 
 .locker_img{position:relative; width:100%; height:146px; background:url("http://image.club5678.com/imgs/quick_talk/img01/img_locker.png") center 70% no-repeat; background-size:79px 96px;}
-p.lock_pw_info{position:relative; width:100%; height:auto; font-size:15px; font-weight:bold; color:#646464; text-align:center;}
+p.lock_pw_info{position:relative; width:100%; height:auto; font-size:15px; font-weight:bold; color:#646464; line-height:24px; text-align:center;}
 .lock_pw{position:relative; width:100%; height:auto; text-align:center;}
 .lock_pw p{position:relative; width:100%; height:auto; font-size:15px; font-weight:bold; color:#4a4a4a;}
-.lock_pw p{position:relative; width:100%; height:auto; padding:12px 0; font-size:15px; font-weight:bold; color:#4a4a4a; text-align:center;}
+.lock_pw p{position:relative; width:100%; height:auto; padding:12px 0; font-size:16px; font-weight:bold; color:#4a4a4a; text-align:center;}
 .lock_pw .pw_box{display:inline-block; width:40px; height:40px; margin-right:16px; border:1px solid #e0d0ca; border-radius:3px; background:#fff;}
 .lock_pw .pw_box:nth-of-type(4){margin:0;}
 .lock_pw .pw_box input{display:block; width:100%; height:100%; border:none; background:none; font-size:30px; font-weight:bold; color:#4a4a4a; line-height:40px; text-align:center;}
