@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+/* 팝업 픽스 */
+.wrap {position:fixed; top:0; bottom:0; left:0; right:0; z-index:999; width:100%; height:100%;}
+.pop_bg_modal {position:absolute; width:100%; height:100%; background:rgba(0,0,0,.6);}
+.pop_wrap{position:absolute; width:90%; height:auto; left:50%; top:50%; transform:translate(-50%,-50%); -webkit-transform:translate(-50%,-50%); -ms-transform:translate(-50%,-50%); -o-transform:translate(-50%,-50%); -moz-transform:translate(-50%,-50%);}
+
+
+/* 메시지 */
+.ms_header {position:relative; width:100%; height:auto; border-radius:5px 5px 0 0;}
+.ms_header h2 {width:100%; height:35px; margin:0; padding:0 16px; color:#fff; font-size:15px; line-height:35px; box-sizing:border-box;}
+
+.ms_content {position:relative; width:100%; height:auto; padding:0 5px; box-sizing:border-box; background:#fff;}
+.ms_content h3 {position:relative; width:100%; height:30px; padding-left:12px; color:#4a4a4a; font-size:14px; text-align:left; line-height:30px; box-sizing:border-box; font-weight:bold;}
+.ms_content h3 span.p_info{font-size:13px; color:#7a7a7a}
+.ms_content h3 .btn_report {position:absolute; top:4px; right:5px; width:45px; height:20px;}
+.ms_content h3 .btn_report a {display:block; width:100%; height:100%; border:1px solid #d8deea; border-radius:15px; background:#fff url(http://image.ilhaeyo.com/imgs/ilheayo_job/img01/ico_report.png) no-repeat center center; background-size:35px 12px; text-indent:-9999px;}
+@keyframes push02 {
+50% {transform:scale(0.9);}
+100% {transform:scale(1);}
+}
+@-webkit-keyframes push02 {
+50% {-webkit-transform:scale(0.9);}
+100% {-webkit-transform:scale(1);}
+}
+@-ms-keyframes push02 {
+50% {-ms-transform:scale(0.9);}
+100% {-ms-transform:scale(1);}
+}
+@-moz-keyframes push02 {
+50% {-moz-transform:scale(0.9);}
+100% {-moz-transform:scale(1);}
+}
+@-o-keyframes push02 {
+50% {-o-transform:scale(0.9);}
+100% {-o-transform:scale(1);}
+}
+.ms_content h3 .btn_report a:active {animation:push02 0.2s ease-in-out 1;-webkit-animation:push02 0.2s ease-in-out 1; -o-animation:push02 0.2s ease-in-out 1; -moz-animation:push02 0.2s ease-in-out 1; -ms-animation:push02 0.2s ease-in-out 1;}
+.ms_content .ms_info {font-size:12px; font-weight:400;}
+.ms_box {position:relative; width:100%; height:auto; margin-top:10px; padding:0 5px; box-sizing:border-box;}
+
+.ms_photo {position:absolute; top:0; left:8px; width:65px; height:70px; padding:5px 10px 5px 0; box-sizing:border-box; z-index:10;}
+.ms_photo .photo_clip {width:55px; height:55px; border-radius:50%; background:#f2f5fa url(http://image.ilhaeyo.com/imgs/ilheayo_job/img01/ico_photo_plus.png) no-repeat center center; background-size:18px 18px; box-sizing:border-box;}
+.ms_photo .photo_clip a {display:block; width:100%; height:100%; overflow:hidden; border-radius:50%;}
+.ms_photo .photo_clip a img {width:100%; height:100%;}
+.ms_photo .photo_clip a.upload_pic{position:absolute; width:29px; height:29px; bottom:6px; right:0;}
+.ms_photo .photo_clip a.upload_pic:active{bottom:5px;}
+
+.ms_txt {position:relative; width:100%; height:70px; padding-left:75px; box-sizing:border-box;}
+.ms_txt textarea {display:block; width:100%; height:auto!important; padding:4px 10px; border:1px solid #d5d5d5; border-radius:3px; outline:none; background-color:#f6f6f6; font-size:13px; line-height:20px; color:#000; box-sizing:border-box;resize:none!important;}
+.ms_txt .ms_count {position:absolute; top:-16px; right:2px; width:auto; height:12px; color:#4a4a4a; font-size:12px; line-height:12px;}
+
+.ms_full_txt {position:relative; width:100%; height:70px; padding:0 5px; box-sizing:border-box;}
+.ms_full_txt textarea {display:block; width:100%; height:auto!important; padding:4px 10px; border:1px solid #d5d5d5; border-radius:3px; outline:none; background-color:#f6f6f6; font-size:13px; font-family:'NanumSquare'; line-height:20px; box-sizing:border-box;resize:none!important;}
+
+.ms_dn{width:100%; height:auto; padding:13px 17% 14px 17%; border-radius:0 0 5px 5px; background:#fff; box-sizing:border-box; overflow:auto;}
+.ms_dn .btn_close{float:left; width:50%; height:40px; padding-right:8px; box-sizing:border-box;}
+.ms_dn .btn_send{float:right; width:50%; height:40px; padding-left:8px; box-sizing:border-box;}
+.ms_dn .btn_close a {display:block; width:100%; height:100%; line-height:38px; border-radius:5px; font-size:14px; font-weight:bold; color:#575757; text-align:center;}
+.ms_dn .btn_send a {display:block; width:100%; height:100%; line-height:38px; border-radius:5px; font-size:14px; font-weight:bold; color:#fff; text-align:center;}

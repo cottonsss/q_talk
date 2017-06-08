@@ -1,5 +1,6 @@
 @charset "utf-8";
 body{background-color:#e7e7e7}
+.bg_gray{background-color:#f6f6f6;}
 #container{margin-top:134px;}
 
 .video_u{position:relative; width:100%; height:auto; padding:6px; overflow:auto; box-sizing:border-box;}
@@ -53,3 +54,35 @@ body{background-color:#e7e7e7}
 @media(min-width:414px){
     .video_u .video_l .card_1 .card_pro{font-size:14px;}
 }
+
+
+
+
+/*-------------------------- 영상대화 수신설정 --------------------------*/
+.box_alim_set{position:relative; width:92%; height:auto; padding:12px 15px; margin:0 auto; margin-top:15px; background:#fff; border:1px solid #d5d5d5; border-radius:3px; box-sizing:border-box;}
+.box_alim_set ul{position:relative; width:100%; height:auto;}
+.box_alim_set li{position:relative; width:100%; height:auto; padding-bottom:4px;}
+.box_alim_set li .radio_lst01 label{font-weight:bold; color:#4a4a4a;}
+.box_alim_set li .radio_lst01 label span{font-size:12px; letter-spacing:-0.5px;}
+
+.sett_time{position:relative; width:100%; height:auto; padding-left:26px; padding-bottom:8px; box-sizing:border-box;}
+.sett_time ul{position:relative; width:100%; height:auto; overflow:auto; margin-top:8px;}
+.sett_time li{float:left; width:40%; height:auto; text-align:center; padding:0;}
+.sett_time li:nth-of-type(1){padding-right:4px; box-sizing:border-box;}
+.sett_time li:nth-of-type(2){padding-left:4px; box-sizing:border-box;}
+.sett_time li.btn_set{width:20%; height:32px; padding:0 0 0 8px; box-sizing:border-box;}
+.sett_time li select{position:relative; width:100%; height:32px; padding-left:20%; border:1px solid #d5d5d5; background:#f6f6f6 url("http://image.club5678.com/imgs/quick_talk/img01/btn_alim_slct.png") 88% center no-repeat; background-size:8px 5px; font-size:13px; font-weight:bold; color:#787878;}
+.sett_time li.btn_set a{display:block; width:100%; height:100%; line-height:32px; border-radius:3px; font-size:13px; font-weight:bold;}
+.sett_time li.btn_add a{color:#fff;}
+.sett_time li.btn_add a:active{background:#757fe2;}
+.sett_time li.btn_dlt a{color:#575757;}
+.sett_time li.btn_dlt a:active{background:#f7f7f7;}
+
+.btn_save{position:relative; width:36%; height:auto; margin:28px auto; border-radius:5px;}
+.btn_save a{display:block; width:100%; height:auto; line-height:42px; font-size:15px; font-weight:bold; color:#fff; text-align:center;}
+.btn_save a:active{background:rgba(0,0,0,0.1);}
+
+@media(min-width:360px){
+    .box_alim_set ul li .radio_lst01 label span{font-size:13px;}
+}
+/*--------------------------------------------------------------------*/
