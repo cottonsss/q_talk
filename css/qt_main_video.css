@@ -71,7 +71,7 @@ body{background-color:#e7e7e7}
 .sett_time li:nth-of-type(1){padding-right:4px; box-sizing:border-box;}
 .sett_time li:nth-of-type(2){padding-left:4px; box-sizing:border-box;}
 .sett_time li.btn_set{width:20%; height:32px; padding:0 0 0 8px; box-sizing:border-box;}
-.sett_time li select{position:relative; width:100%; height:32px; padding-left:20%; border:1px solid #d5d5d5; background:#f6f6f6 url("http://image.club5678.com/imgs/quick_talk/img01/btn_alim_slct.png") 88% center no-repeat; background-size:8px 5px; font-size:13px; font-weight:bold; color:#787878;}
+.sett_time li select{position:relative; width:100%; height:32px; padding-left:20%; border:1px solid #d5d5d5; border-radius:0px; background:#f6f6f6 url("http://image.club5678.com/imgs/quick_talk/img01/btn_alim_slct.png") 88% center no-repeat; background-size:8px 5px; font-size:13px; font-weight:bold; color:#787878;}
 .sett_time li.btn_set a{display:block; width:100%; height:100%; line-height:32px; border-radius:3px; font-size:13px; font-weight:bold;}
 .sett_time li.btn_add a{color:#fff;}
 .sett_time li.btn_add a:active{background:#757fe2;}
